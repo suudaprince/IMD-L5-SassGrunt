@@ -1,0 +1,19 @@
+{
+  "name": "class5-demo",
+  "version": "1.0.0",
+  "description": "Class 5 Demo project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Hansen",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "dependencies": {
+    "grunt-cli": "^1.5.0"
+  }
+}

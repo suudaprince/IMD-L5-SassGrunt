@@ -1,0 +1,33 @@
+@mixin hover-transition {
+  transition: transform 300ms ease;
+  transform: scale(1);
+
+  &:hover {
+    transform: scale(1.05);
+  }
+} 
+
+@mixin hover-scale($scale: 1.15, $color: var(--accent-color)) {
+  transition: transform 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    color: $color;
+    transform: scale($scale);
+  }
+}
+
+@mixin button {
+  background-color: var(--nav-bg-color);
+  color: var(--herotext-color);
+  font-family: var(--font-secondary);
+  border-radius: 15px;
+  border-style: none;
+  padding:15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}

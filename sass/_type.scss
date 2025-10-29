@@ -1,0 +1,27 @@
+body {
+  font-family: var(--font-primary);
+  font-size: 20px;
+  color: var(--body-color);
+}
+
+.nav-links, h3 {
+  color: var(--navtext-color)
+}
+
+.herotext h1 {
+  font-size: 80px;
+  font-family: var(--font-secondary);
+  letter-spacing: 40px;
+}
+
+.herotext p {
+  font-size: 30px;
+}
+
+.herotext {
+  color: var(--herotext-color)
+}
+
+.menu h2 {
+  text-align: left;
+}
