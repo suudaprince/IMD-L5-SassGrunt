@@ -5,7 +5,7 @@ module.exports = function (grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     // sass config
-    sass: {
+    sass: { 
       dist: {
         options: {
           style: 'compressed'
@@ -22,7 +22,7 @@ module.exports = function (grunt) {
         tasks: ['sass']
       }
     }
-  });
+  }); 
 
   // Load the plugin that provides the "sass" task.
   grunt.loadNpmTasks('grunt-contrib-sass');

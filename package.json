@@ -1,13 +1,13 @@
 {
-  "name": "class5-demo",
+  "name": "l5-sass-github",
   "version": "1.0.0",
-  "description": "Class 5 Demo project",
+  "description": "IMD L5 Assignment",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Daniel Hansen",
-  "license": "ISC",
+  "author": "Gabrielle Prince",
+  "license": "ISC", 
   "devDependencies": {
     "grunt": "^1.6.1",
     "grunt-contrib-sass": "^2.0.0",
